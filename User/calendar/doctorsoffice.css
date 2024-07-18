@@ -1,0 +1,419 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+/* welcome page */
+body{
+    background-image: url('../Assets/background 2.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.container-2{
+    text-align: center;
+}
+.container-2 img{
+    width: 20%;
+    margin-top: 0px;
+    
+}
+.container-2 h2{
+    font-size: 35px;
+    color: white;
+    margin-top: -20px;
+}
+.container-2 p{
+    color: white;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.container-2 button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #f0a732;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    height:100%;
+    margin-top: -8px;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* side bar */
+.left{
+    background-color: white;
+    width: 20%;
+    float:left;
+      height: 100vh;
+  }
+  .left img{
+    width: 40%;
+  }
+  .logo{
+    text-align: center;
+  }
+  .logo-name span{
+    color: #f0a732;
+    font-style: italic;
+  }
+  .logo-name{
+    margin-top: -12px;
+    font-size: 23px;
+  }
+  .side-line{
+    border: #f0a732;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;  
+  }
+  /* nav */
+  .nav{
+    margin-top: 10px;
+    
+  }
+  .nav li{
+      list-style: none;
+      padding: 13px 10px;
+  
+  }
+  .nav li a{
+      text-decoration: none;
+      color: black;
+  }
+  .nav li a i{
+      padding-right: 5px;
+      color: #6db2e7;
+      font-size: 23px;
+      padding-right: 10px;
+      vertical-align: bottom;
+      width: 23px;
+      height: 23px;
+  }
+
+  .nav > li{
+    border-radius: 60px 0 0 60px;
+    width: 101%;
+    padding-left: 25px;
+    margin-left: -16px;
+  }
+  .fill {
+    text-align: center;
+    margin-top: 80px;
+  }
+  .fill img{
+    width: 80%;
+  }
+  .right-div{
+      width: 76%;
+      float:right;
+      margin: 25px;
+  }
+  .head{
+    padding-top: 20px;
+    background-color: white;
+    height: 97vh;
+    margin-top: -60px;
+    width: 102.41%;
+  }
+  .col-1{
+    float: left;
+    background-color:#6db2e7;
+    margin-top: -20px;
+    height: 80px;
+  }
+  
+  /* profile */
+  .user {
+    background-color: #f0a732;
+    color: black;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  
+  .user:hover, .user:focus {
+    background-color: white;
+  }
+  
+  .user-profile {
+    position: relative;
+    margin-left: 890px;
+    float: left;
+    margin-top: -80px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 149px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+  
+  .show {
+    display:block;
+  }
+  .nav-title{
+    float: left;
+    font-size: 30px;
+    margin-top: px;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .line{
+    border: rgba(0, 0, 0, 0.6);
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 20px;
+  }
+  .banner-image img{
+    width: 30%;
+  }
+  .banner-image{
+    margin-left: 200px;
+  }
+  .banner-words{
+    text-align: center;
+    font-size: 20px;
+  }
+  .banner{
+    display:inline-flex;
+    background-color: #6db2e7;
+    height: 230px;
+  }
+  /* tiles */
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+   }
+   .services img{
+    width: 40%;
+   }
+   .services a {
+    width: 200px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+   }
+   
+   .services a:hover {
+    transform: translateY(-5px);
+    transition: 0.5s ease;
+   }
+   .services p i{
+    color: #f0a732;
+    padding: 5px;
+   }
+  /* search  */
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .search input{
+    padding: px;
+  }
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .search-div{
+    width: 50%;
+    position: absolute;
+    top: 16%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* list */
+  .patient-block{
+    background-color: #6db2e7;
+    width: 95%;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 50px;
+}
+.patient-block button{
+    display: inline-flexbox;
+    float: right;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: #f0a732;
+    cursor: pointer;
+}
+.patient-block p{
+    float: left;
+    display: inline-flexbox;
+    margin-left: 20px;
+    width: 50%;
+    font-weight: 600;
+}
+
+/* pop up form */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    width: 26%;
+    background-color: white;
+    margin-left: 300px;
+    border: 3px solid #f1f1f1;
+    position:absolute;
+    top: 150px;
+    display: none;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #6db2e7;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .back {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+    margin-left: 15px;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+/* popup form */
